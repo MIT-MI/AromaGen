@@ -175,11 +175,15 @@ MIT License — see [LICENSE](LICENSE).
 ## Citation
 
 ```bibtex
-@inproceedings{aromagen2026,
-  title={AromaGen: Conversational AI for Wearable Olfactory Memory},
-  author={Chen, Awu and Liang, Paul and others},
-  booktitle={Proceedings of CHI},
-  year={2026}
+@article{aromagen2026,
+  title={AromaGen: Interactive Generation of Rich Olfactory Experiences with Multimodal Language Models},
+  author={Chen, Awu and Wang, Silang and Wen, Yunge and Yu, Jianing and Eisa, Zinab and Lopes, Ana Julia Santos and Brooks, Jas and Ishii, Hiroshi and Liang, Paul Pu},
+  year={2026},
+  eprint={2604.01650},
+  archivePrefix={arXiv},
+  primaryClass={cs.HC},
+  url={https://arxiv.org/abs/2604.01650},
+  doi={10.48550/arXiv.2604.01650}
 }
 ```
 
