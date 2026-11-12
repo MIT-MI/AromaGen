@@ -1,4 +1,3 @@
-# AromaGen
 <h1 align="center">AromaGen: Interactive Generation of Rich Olfactory Experiences with Multimodal Language 
 Models</h1>
 **AromaGen** is a wearable olfactory interface that maps free-form text, speech, and images into timed scent 
