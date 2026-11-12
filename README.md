@@ -1,34 +1,18 @@
-<h1 align="center">AromaGen: Interactive Generation of Rich Olfactory Experiences with Multimodal Language 
-Models</h1>
-<p align="center"><strong>Open-source stack for programmable multi-channel olfactory displays — compose, 
-play, and refine scents from language, speech, and images.</strong></p>
-<p align="center">
-  <a href="https://arxiv.org/abs/2604.01650"><img src="https://img.shields.io/badge/Paper-arXiv%3A2604.
-01650-B31B1B" alt="Paper arXiv 2604.01650"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue" alt="MIT License"></a>
-  <a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-3.9%2B-3776AB" alt="Python 3.
-9+"></a>
-</p>
-<p align="center">
-  <a href="#quick-start">Quick start</a> ·
-  <a href="#repository-structure">Repository</a> ·
-  <a href="#api-ai-backend-port-8000">API</a> ·
-  <a href="#hardware">Hardware</a> ·
-  <a href="#documentation">Docs</a> ·
-  <a href="#citation">Citation</a>
-</p>
-**AromaGen** maps free-form **text, speech, and images** to **timed pulse trains** over a fixed **6–12 
-channel** odorant palette, with **human-in-the-loop** refinement. This repo ships the **composition 
-backend** (FastAPI + multimodal LLM), **BLE device server**, **demo UIs**, and study **instrumentation** 
-templates. Developed at the MIT Media Lab. **Production interaction logs, RAG corpora, and participant 
-exports are not included** — see [`docs/PUBLIC_RELEASE.md`](docs/PUBLIC_RELEASE.md).
-<p><strong>AromaGen</strong> maps free-form <strong>text, speech, and images</strong> to <strong>timed pulse 
-trains</strong> over a fixed <strong>6–12 channel</strong> odorant palette, with 
-<strong>human-in-the-loop</strong> refinement. This repo ships the <strong>composition backend</strong> 
-(FastAPI + multimodal LLM), <strong>BLE device server</strong>, <strong>demo UIs</strong>, and study 
-<strong>instrumentation</strong> templates. Developed at the MIT Media Lab. <strong>Production 
-interaction logs, RAG corpora, and participant exports are not included</strong> — see <a href="docs/
-PUBLIC_RELEASE.md">docs/PUBLIC_RELEASE.md</a>.</p>
+<div align="center">
+
+# AromaGen: Interactive Generation of Rich Olfactory Experiences with Multimodal Language Models
+
+**Open-source stack for programmable multi-channel olfactory displays — compose, play, and refine scents from language, speech, and images.**
+
+[![Paper](https://img.shields.io/badge/Paper-2604.01650-B31B1B?style=flat-square)](https://arxiv.org/abs/2604.01650)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
+[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=flat-square)](https://www.python.org/)
+
+[Quick start](#quick-start) · [Repository](#repository-structure) · [API](#api-ai-backend-port-8000) · [Hardware](#hardware) · [Docs](#documentation) · [Citation](#citation)
+
+</div>
+
+**AromaGen** maps free-form text, speech, and images to timed pulse trains over a fixed 6–12 channel odorant palette, with human-in-the-loop refinement. This repo ships the composition backend (FastAPI + multimodal LLM), BLE device server, demo UIs, and study instrumentation templates. Developed at the MIT Media Lab. Production interaction logs, RAG corpora, and participant exports are not included — see [`docs/PUBLIC_RELEASE.md`](docs/PUBLIC_RELEASE.md).
 
 ---
 
