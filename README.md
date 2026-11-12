@@ -147,8 +147,9 @@ Environment variables (`.env`, see `.env.example` for the full annotated list):
 
 ## Hardware
 
-- Off-the-shelf SCENTAC-style neck wearable, 12 fixed odorant slots
-- Single palette spanning 12 standardized descriptor categories (pleasant → unpleasant) — see `cartridge_sets.json`
+Interface class (what AromaGen assumes). A programmable multi-channel olfactory display: several fixed odorant channels (typically 6–12), each loaded with one base material (liquid perfume, oil, or solid/slow-release), actuated on demand so software can play timed pulse trains rather than only a single static mix. Actuation is hardware-specific (e.g. piezo atomization, pump, solenoid, thermal); channels must support repeated, relatively high-frequency pulses (on the order of sub-second to few-second bursts, many pulses per trial) so ratios are expressed as duty over time across channels. You can use the lab neck-worn build or any custom dispenser that exposes the same control model (per-channel on/off timing, one or more channels active per step).
+
+- Reference build: 12-slot wearable used in studies; palette spans 12 standardized descriptor categories (pleasant → unpleasant) — see cartridge_sets.json
 - BLE discovery: devices with `wear` in the name (`backend.py`)
 
 Multi-device sync (optional): `./start_sync_server.sh` + `SYNC_SERVER_URL=ws://...`
